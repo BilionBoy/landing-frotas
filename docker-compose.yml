@@ -1,0 +1,7 @@
+services:
+  landing:
+    build: .
+    container_name: landing_frotas
+    restart: always
+    ports:
+      - "3100:80"
